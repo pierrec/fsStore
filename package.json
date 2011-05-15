@@ -1,0 +1,20 @@
+{
+, "name": "fsStore"
+, "description": "File system based store"
+, "version": "0.1.0"
+, "main": "./index"
+, "keywords": [ "store" ]
+, "author": "Pierre Curto"
+, "dependencies": {
+    "async": ">=0.1.9"
+  , "optimist": ">=0.2"
+  }
+, "bin": { "json2msgpack": "./bin/json2msgpack", "msgpack2json": "./bin/msgpack2json" }
+, "directories": { "test": "./test" }
+, "engines": { "node": ">=0.4" }
+, "repository":
+  {
+    "type": "git"
+  , "url": "http://github.com/pierrec/fsStore.git"
+  }
+}
